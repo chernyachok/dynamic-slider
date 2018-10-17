@@ -1,0 +1,25 @@
+.test{
+  color: #ED9696
+}
+#gallery {
+	width:1000px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#gallery .photos{
+	position: relative;
+	height: 300px;
+	width: 400px;
+}
+#gallery .photos img{
+	width: 100%;
+	opacity: 0;
+	left: 0;
+	position: absolute;
+	transition: ease-out 1s;
+}
+#gallery .photos img.showed{
+	opacity: 1;
+}
