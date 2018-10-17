@@ -2,3 +2,4 @@ Server side generates a random number from 0 to 150, then client side sets a bor
 that comes asynchronously each 2 seconds(there is `fetch` request)
 and also updates an image slider
 Check `/example` folder
+Random number == `border-radius` property
